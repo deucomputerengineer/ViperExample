@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CurrencyHeader" customModule="ViperExample" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="ugN-1D-HfG" id="97m-7V-Lrr"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ugN-1D-HfG">
+            <rect key="frame" x="0.0" y="0.0" width="372" height="72"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Döviz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wbI-DP-YJi">
+                    <rect key="frame" x="8" y="32.5" width="93" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alış" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W29-pc-QBJ">
+                    <rect key="frame" x="139.5" y="32.5" width="93" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Satış" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4MC-tg-Og8">
+                    <rect key="frame" x="271" y="32.5" width="93" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="4MC-tg-Og8" firstAttribute="width" secondItem="ugN-1D-HfG" secondAttribute="width" multiplier="0.25" id="0XY-uP-2DV"/>
+                <constraint firstItem="W29-pc-QBJ" firstAttribute="width" secondItem="ugN-1D-HfG" secondAttribute="width" multiplier="0.25" id="3g5-WW-5kj"/>
+                <constraint firstItem="wbI-DP-YJi" firstAttribute="width" secondItem="ugN-1D-HfG" secondAttribute="width" multiplier="0.25" id="67n-K2-j2p"/>
+                <constraint firstItem="W29-pc-QBJ" firstAttribute="centerY" secondItem="nXD-vs-gd0" secondAttribute="centerY" id="A6B-y4-6NC"/>
+                <constraint firstItem="wbI-DP-YJi" firstAttribute="centerY" secondItem="nXD-vs-gd0" secondAttribute="centerY" id="Eb4-tg-8WE"/>
+                <constraint firstItem="4MC-tg-Og8" firstAttribute="centerY" secondItem="nXD-vs-gd0" secondAttribute="centerY" id="Nb9-hA-hcR"/>
+                <constraint firstItem="wbI-DP-YJi" firstAttribute="leading" secondItem="nXD-vs-gd0" secondAttribute="leading" constant="8" id="hbv-FA-Rmv"/>
+                <constraint firstItem="nXD-vs-gd0" firstAttribute="trailing" secondItem="4MC-tg-Og8" secondAttribute="trailing" constant="8" id="hiB-jS-leD"/>
+                <constraint firstItem="W29-pc-QBJ" firstAttribute="centerX" secondItem="nXD-vs-gd0" secondAttribute="centerX" id="u8w-ER-zMf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="nXD-vs-gd0"/>
+            <point key="canvasLocation" x="76.799999999999997" y="134.93253373313345"/>
+        </view>
+    </objects>
+</document>
